@@ -1,0 +1,55 @@
+@import "variables.scss";
+
+/* _themes.scss */
+
+/* Default Blue-Green Theme */
+:root {
+    --color-primary-1: #ffffff;   /* Vàng nhạt */
+    --color-primary-2: #FFF3C4;   /* Vàng sáng */
+    --color-primary-3: #FCE588;   /* Vàng trung bình */
+    --color-primary-4: #FADB5F;   /* Vàng đậm */
+    --color-primary-5: #F7C948;   /* Vàng nổi bật */
+    --color-primary-6: #F0B429;   /* Vàng đậm hơn */
+    --color-primary-7: #DE911D;   /* Vàng cam */
+    --color-primary-8: #CB6E17;   /* Vàng cam đậm */
+    --color-primary-9: #B44D12;   /* Cam đậm */
+    --color-primary-10: #8D2B0B;  /* Cam nâu */
+    --color-tooltip: #8D2B0B;
+    --color-tooltip-bg: #FFFBEA;
+
+    --color-btn-outlined-bg-normal: #F7C948;
+    --color-btn-outlined-bg-hover: #FFF3C4;
+    --color-btn-outlined-bg-focus: rgba(252, 229, 136, 0.6); /* 60% */
+    --color-btn-outlined-bg-active: #FCE588;
+    --color-btn-outlined-bg-disable: #FFFBEA;
+    --color-btn-outlined-text-normal: #DE911D;
+    --color-btn-outlined-text-hover: #F7C948;
+    --color-btn-outlined-text-focus: #DE911D;
+    --color-btn-outlined-text-active: #CB6E17;
+    --color-btn-outlined-text-disable: #FCE588;
+    --color-btn-outlined-b-hover: #F7C948;
+    --color-btn-outlined-b-disable: #FCE588;
+
+    --color-btn-primary-bg-normal: #DE911D;
+    --color-btn-primary-bg-hover: #F7C948;
+    --color-btn-primary-bg-focus: #CB6E17;
+    --color-btn-primary-bg-active: #B44D12;
+    --color-btn-primary-bg-disable: #FFF3C4;
+    --color-btn-primary-text: #FFFFFF;
+
+    --color-icon-action-table: #DE911D;
+    --background-color-icon-action-table: #FFFBEA;
+    --outline-color-icon-action-table: #F7C948;
+
+    --color-gray-50: #FDFDFD;
+    --color-gray-100: #F5F5F5;
+    --color-gray-200: #EDEDED;
+    --color-gray-300: #D4D4D4;
+    --color-gray-400: #BEBEBE;
+    --color-gray-500: #A8A8A8;
+    --color-gray-600: #8F8F8F;
+    --color-gray-700: #6F6F6F;
+    --color-gray-800: #4F4F4F;
+    --color-gray-900: #2F2F2F;
+}
+
