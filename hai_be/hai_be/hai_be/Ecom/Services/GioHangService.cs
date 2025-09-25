@@ -43,7 +43,7 @@ namespace Ecom.Services
                 }
                 else
                 {
-                   throw new Exception("Giỏ hàng trống");
+                    return null;
                 }
 
             }

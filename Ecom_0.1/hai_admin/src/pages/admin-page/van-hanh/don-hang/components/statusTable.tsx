@@ -201,15 +201,16 @@ useEffect(()=> {
               <ButtonCustom text="Giao hàng loạt" />
             ) : trang_thai === 2 ? (
               <ButtonCustom text="Gửi hàng loạt" />
-            ) : (
-              ""
-            )
+            ) : ""
           }
           HandleOperationButton={(rows: any) => {
             if (trang_thai === 1) {
               handleOpenModalXLNhieu?.(rows, 1);
             } else if (trang_thai === 2) {
               handleOpenModalXLNhieu?.(rows, 2);
+            }
+            else if (trang_thai === 3) {
+              handleOpenModalXLNhieu?.(rows, 3);
             }
           }}
           handleOpenModalEditCustom={open}
@@ -236,7 +237,16 @@ useEffect(()=> {
                 }}
               />
             ) : (
+              trang_thai === 3 ? (
+              <SendOutlined
+                className="action-table-1"
+                onClick={() => {
+                  setIsOpenModaldvvc(true);
+                }}
+              />
+            ) : (
               ""
+            )
             )
           }
         />

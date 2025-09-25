@@ -46,7 +46,7 @@ const MainLayout: React.FC<{
         </Content>
 
         <Footer style={{ textAlign: "center" }}>
-        Shoes ©{new Date().getFullYear()} Created by Đinh Hải
+        Shoes ©{new Date().getFullYear()} Created by Team 6
         </Footer>
       </Spin>
     </Layout>

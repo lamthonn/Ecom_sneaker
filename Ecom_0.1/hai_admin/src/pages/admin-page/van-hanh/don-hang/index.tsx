@@ -20,7 +20,7 @@ const DonHang: React.FC<DonHangProps> = ({}) => {
     },
     {
       key: Math.random().toString(),
-      label: `đang giao `,
+      label: `Đang giao `,
       children: (<StatusTable trang_thai={3}/>)
     },
     {

@@ -146,7 +146,7 @@ const MainLayout:React.FC<{
       >
         <PageContainer
           footer={[
-            <div key="3"> Shoes seller center ©{new Date().getFullYear()} Created by Đinh Hải</div>,
+            <div key="3"> Shoes seller center ©{new Date().getFullYear()} Created by Team 6</div>,
             // <Button key="2" type="primary">
             //   提交
             // </Button>,
@@ -154,7 +154,7 @@ const MainLayout:React.FC<{
         >
           <ProCard
             style={{
-              height: '100vh',
+              //height: '100vh',
               minHeight: 800,
             }}
           >
